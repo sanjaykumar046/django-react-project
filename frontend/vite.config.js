@@ -6,5 +6,8 @@ export default defineConfig({
   server: {
     port: 5175,
     open: true
+  },
+  build: {
+    outDir: "dist",   // 👈 Vercel looks for this
   }
 })
